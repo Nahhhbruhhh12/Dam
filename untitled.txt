@@ -1,16 +1,4 @@
-local whitelistedUserIds = {4789459528,4789459528};
-local player = game:GetService("Players").LocalPlayer;
-local function isWhitelisted(userId)
-	for _, id in ipairs(whitelistedUserIds) do
-		if (userId == id) then
-			return true;
-		end
-	end
-	return false;
-end
-if not isWhitelisted(player.UserId) then
-	player:Kick("Not whitelisted.");
-end
+
 --[[
 
 ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬â„¢ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€    ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬â„¢ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€    ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬Å“ ÃƒÂ¢Ã¢â‚¬â€œÃ¢â‚¬â„¢ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€ ÃƒÂ¢Ã¢â‚¬â€œÃ‹â€   
